@@ -35,6 +35,8 @@ class Model {
                 
                 let response = try decoder.decode(Response.self, from: data!)
                 
+                dump(response)
+                
             } catch {
             }
             
