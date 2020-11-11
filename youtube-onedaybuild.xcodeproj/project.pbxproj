@@ -11,6 +11,7 @@
 		37B0164924CF657B0060C0A1 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B0164824CF657B0060C0A1 /* Video.swift */; };
 		37B0164B24CF65D40060C0A1 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B0164A24CF65D40060C0A1 /* Model.swift */; };
 		37B0164D24CF79E20060C0A1 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B0164C24CF79E20060C0A1 /* Response.swift */; };
+		37B354622557B3620028AB44 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B354612557B3620028AB44 /* DetailViewController.swift */; };
 		37CF6B1B24B1203B00A59DF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CF6B1A24B1203B00A59DF3 /* AppDelegate.swift */; };
 		37CF6B1D24B1203B00A59DF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CF6B1C24B1203B00A59DF3 /* SceneDelegate.swift */; };
 		37CF6B1F24B1203B00A59DF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CF6B1E24B1203B00A59DF3 /* ViewController.swift */; };
@@ -25,6 +26,7 @@
 		37B0164824CF657B0060C0A1 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		37B0164A24CF65D40060C0A1 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		37B0164C24CF79E20060C0A1 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		37B354612557B3620028AB44 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = "youtube-onedaybuild/Storyboards/DetailViewController.swift"; sourceTree = SOURCE_ROOT; };
 		37CF6B1724B1203B00A59DF3 /* youtube-onedaybuild.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "youtube-onedaybuild.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37CF6B1A24B1203B00A59DF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37CF6B1C24B1203B00A59DF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +52,7 @@
 		3705E20924F787EA00CE453D /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				37B354612557B3620028AB44 /* DetailViewController.swift */,
 				37CF6B1E24B1203B00A59DF3 /* ViewController.swift */,
 			);
 			path = "View Controllers";
@@ -193,6 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37B354622557B3620028AB44 /* DetailViewController.swift in Sources */,
 				37CF6B1F24B1203B00A59DF3 /* ViewController.swift in Sources */,
 				37CF6B1B24B1203B00A59DF3 /* AppDelegate.swift in Sources */,
 				37CF6B1D24B1203B00A59DF3 /* SceneDelegate.swift in Sources */,
@@ -349,6 +353,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZRJMVZ49H;
 				INFOPLIST_FILE = "youtube-onedaybuild/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -367,6 +372,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZRJMVZ49H;
 				INFOPLIST_FILE = "youtube-onedaybuild/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

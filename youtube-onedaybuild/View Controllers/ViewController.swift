@@ -55,9 +55,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         // Configure the cell
         // Get the title for the video in question
-        let video = self.videos[indexPath.row]
+        let title = self.videos[indexPath.row].title
         
-        cell.setCell(v: video)
+        cell.textLabel?.text = title
+        //cell.setCell(v: video)
         
         return cell
     }
